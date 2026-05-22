@@ -5,11 +5,11 @@ import { useState } from "react";
 
 export default function Home() {
   const galleryImages = [
-    "/images/view.jpg",
-    "/images/room1.jpg",
-    "/images/bathroom.jpg",
-    "/images/building.jpg",
-    "/images/room2.jpg",
+    "/Images/View.jpeg",
+    "/Images/Room 1.jpeg",
+    "/Images/Washroom.jpeg",
+    "/Images/Exterior.jpeg",
+    "/Images/Room 2.jpeg",
   ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const galleryLength = galleryImages.length;
