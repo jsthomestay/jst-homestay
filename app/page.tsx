@@ -208,10 +208,6 @@ export default function Home() {
               📍 203, Neshvilla Road, Dehradun, 248001
             </p>
 
-            <p className="mb-4">
-              Coordinates: 30.333502, 78.040878
-            </p>
-
             <p className="mb-6">
               Easy access to Rajpur Road & Paltan Bazaar.
             </p>
