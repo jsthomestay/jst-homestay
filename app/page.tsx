@@ -9,9 +9,7 @@ export default function Home() {
     "/Images/Sunny balcony with city view.png",
     "/Images/Entrance.jpeg",
     "/Images/Balcony.jpeg",
-    "/Images/Room 1.jpeg",
     "/Images/Room-1-Alt.jpeg",
-    "/Images/Room 2.jpeg",
     "/Images/Room-2-Alt.jpeg",
   ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
