@@ -205,12 +205,39 @@ export default function Home() {
             </h2>
 
             <p className="mb-4">
-              📍 203, Neshvilla Road, Dehradun, 248001
+              📍 Location: Neshvilla Road, Dehradun
             </p>
 
             <p className="mb-6">
               Easy access to Rajpur Road & Paltan Bazaar.
             </p>
+
+            <h3 className="text-2xl font-semibold mb-4">
+              Why Guests Love the Location
+            </h3>
+
+            <ul className="space-y-3 mb-6 text-lg">
+              <li className="flex items-start gap-3">
+                <span className="text-green-600">✔</span>
+                Centrally located in Dehradun
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-green-600">✔</span>
+                Easy access to tourist attractions
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-green-600">✔</span>
+                Peaceful and premium neighborhood
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-green-600">✔</span>
+                Quick connectivity to Mussoorie & Airport
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-green-600">✔</span>
+                Close to cafés, markets & Rajpur Road
+              </li>
+            </ul>
 
             <a
               href="https://maps.google.com/?q=30.333502,78.040878"
