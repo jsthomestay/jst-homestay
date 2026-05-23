@@ -11,6 +11,8 @@ export default function Home() {
     "/Images/Balcony.jpeg",
     "/Images/Room-1-Alt.jpeg",
     "/Images/Room-2-Alt.jpeg",
+    "/Images/1.jpeg",
+    "/Images/2.jpeg",
   ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const galleryLength = galleryImages.length;
