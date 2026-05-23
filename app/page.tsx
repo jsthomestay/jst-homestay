@@ -208,10 +208,6 @@ export default function Home() {
               📍 Location: Neshvilla Road, Dehradun
             </p>
 
-            <p className="mb-6">
-              Easy access to Rajpur Road & Paltan Bazaar.
-            </p>
-
             <h3 className="text-2xl font-semibold mb-4">
               Why Guests Love the Location
             </h3>
