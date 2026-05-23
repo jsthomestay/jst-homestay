@@ -110,12 +110,12 @@ export default function Home() {
           </h2>
 
           <div className="relative rounded-3xl overflow-hidden shadow-lg">
-            <div className="relative h-[420px] md:h-[520px]">
+            <div className="relative h-[420px] md:h-[520px] bg-gray-200">
               <Image
                 src={galleryImages[currentImageIndex]}
                 alt={`Gallery image ${currentImageIndex + 1}`}
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 768px) 100vw, 1200px"
               />
             </div>
