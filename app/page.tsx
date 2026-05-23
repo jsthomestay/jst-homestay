@@ -4,12 +4,15 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
+  const heroImage = "/Images/Hero.png";
   const galleryImages = [
-    "/Images/View.jpeg",
+    "/Images/Sunny balcony with city view.png",
+    "/Images/Entrance.jpeg",
+    "/Images/Balcony.jpeg",
     "/Images/Room 1.jpeg",
-    "/Images/Washroom.jpeg",
-    "/Images/Exterior.jpeg",
+    "/Images/Room-1-Alt.jpeg",
     "/Images/Room 2.jpeg",
+    "/Images/Room-2-Alt.jpeg",
   ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const galleryLength = galleryImages.length;
@@ -21,7 +24,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <section className="relative h-screen flex items-center justify-center">
         <Image
-          src={galleryImages[0]}
+          src={heroImage}
           alt="JST Homestay"
           fill
           className="absolute inset-0 object-cover"
